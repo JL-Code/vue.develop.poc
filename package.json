@@ -8,9 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "better-scroll": "^1.15.2",
     "core-js": "^2.6.5",
+    "vant": "^1.6.14",
     "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
     "vue-router": "^3.0.3",
+    "vue-scroller": "^2.2.4",
+    "vue-slim-better-scroll": "^1.7.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -21,6 +27,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
