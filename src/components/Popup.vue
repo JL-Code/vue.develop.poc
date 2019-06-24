@@ -64,8 +64,11 @@ export default {
     }
   },
   mounted() {
-    if (!this.getContainer) {
-      document.querySelector(this.getContainer).appendChild(this.$el);
+    console.log("getContainer", this.getContainer);
+    if (this.getContainer) {
+      let container = document.querySelector(this.getContainer);
+      console.log("container", container);
+      container.appendChild(this.$el);
     }
   },
   beforeDestroy() {
