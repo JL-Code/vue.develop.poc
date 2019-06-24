@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import TestParam from './views/TestParam.vue';
 import About from './views/About.vue';
 import TestPopup from './views/TestPopup.vue';
+import TestListView from './views/TestListView.vue';
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/testpopup',
       name: 'TestPopup',
       component: TestPopup
+    },
+    {
+      path: '/testlistview',
+      name: 'TestListView',
+      component: TestListView
     },
     {
       path: '/about',

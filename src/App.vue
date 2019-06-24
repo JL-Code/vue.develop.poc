@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>|
       <router-link to="/testpopup">Popup</router-link>|
+      <router-link to="/testlistview">ListView</router-link>|
       <router-link to="/testparam?param1=1&param2=2">Route</router-link>
     </div>
     <router-view/>
