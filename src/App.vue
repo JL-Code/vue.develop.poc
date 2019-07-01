@@ -6,8 +6,9 @@
       <router-link to="/testpopup">Popup</router-link>|
       <router-link to="/testlistview">ListView</router-link>|
       <router-link to="/testparam?param1=1&param2=2">Route</router-link>
+      <router-link to="/scrollbehavior?param1=1&param2=2">ScrollBehavior</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
